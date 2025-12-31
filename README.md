@@ -168,6 +168,18 @@ DOLAR-TASK/
 
 ```
 
+## Environment Variables
+
+The project uses environment variables for configuration.
+
+Example files are provided:
+
+- `.env.sample`
+- `client/.env.sample`
+- `server/.env.sample`
+
+Copy each `.env.sample` to `.env` and fill in the required values.
+
 ## Run the project
 
 Make sure Docker is installed and running.
