@@ -6,9 +6,11 @@ import './FilterControls.css';
 type FilterControlsProps = {
   months: string[];
   selectedMonth: string;
-  setSelectedMonth: (value: string) => void;
+  setSelectedMonth: React.Dispatch<React.SetStateAction<string>>;
   sortMode: 'byMonth' | 'byAverage';
-  setSortMode: (value: 'byMonth' | 'byAverage') => void;
+  setSortMode: React.Dispatch<
+    React.SetStateAction<'byMonth' | 'byAverage'>
+  >;
 };
 
 
