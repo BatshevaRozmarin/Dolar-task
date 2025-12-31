@@ -5,7 +5,7 @@ import './ViewSelector.css';
 
 type ViewSelectorProps = {
   selected: string;
-  setSelected: (v: string) => void;
+  setSelected: (value: string) => void;
 };
 
 export const ViewSelector: React.FC<ViewSelectorProps> = ({ selected, setSelected }) => {

@@ -6,10 +6,11 @@ import './FilterControls.css';
 type FilterControlsProps = {
   months: string[];
   selectedMonth: string;
-  setSelectedMonth: (month: string) => void;
+  setSelectedMonth: (value: string) => void;
   sortMode: 'byMonth' | 'byAverage';
-  setSortMode: (mode: 'byMonth' | 'byAverage') => void;
+  setSortMode: (value: 'byMonth' | 'byAverage') => void;
 };
+
 
 export const FilterControls: React.FC<FilterControlsProps> = ({
   months,
